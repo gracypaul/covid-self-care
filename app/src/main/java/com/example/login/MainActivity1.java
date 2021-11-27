@@ -53,7 +53,10 @@ public class MainActivity1 extends AppCompatActivity {
         }
 
         if (isEmpty(password)) {
-            password.setError("Last name is required!");
+            password.setError("password is required!");
+        }
+        if (isEmpty(phone)) {
+            phone.setError("phone number is required!");
         }
         if (isEmail(Email) == false) {
             Email.setError("Enter valid email!");
