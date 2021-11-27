@@ -55,31 +55,20 @@
         android:layout_height="wrap_content"
         android:id="@+id/forgotpassword"
         android:layout_below="@+id/loginbtn"
-        android:text="Forgot Password"
+        android:text="@string/forgot_password"
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"/>
 
-    <TextView
+    <com.google.android.material.button.MaterialButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/others"
-        android:layout_above="@id/googleicon"
-        android:text="or sign in with"
-        android:layout_centerHorizontal="true"/>
+        android:id="@+id/createaccount"
+        android:layout_below="@+id/forgotpassword"
+        android:text="@string/create_an_account"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
 
-    <LinearLayout
-        android:id="@+id/googleicon"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:gravity="center">
 
-        <ImageView
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_margin="20dp"
-            android:src="@drawable/img" />
-    </LinearLayout>
 
 
 </RelativeLayout>
