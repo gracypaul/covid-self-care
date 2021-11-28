@@ -5,4 +5,7 @@
     <string name="username">Username</string>
     <string name="phone_number">Phone number</string>
     <string name="sign_up">Sign Up</string>
+    <string name="app_name">COVID</string>
+    <string name="tab_text_1">India</string>
+    <string name="tab_text_2">Statewise</string>
 </resources>
