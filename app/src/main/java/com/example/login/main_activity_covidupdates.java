@@ -13,7 +13,7 @@ import android.view.View;
 import com.example.covid.ui.main.SectionsPagerAdapter;
 import com.example.covid.databinding.ActivityMainBinding;
 
-public class MainActivity extends AppCompatActivity {
+public class main_activity_covidupdate extends AppCompatActivity {
 
     private ActivityMainBinding binding;
 
